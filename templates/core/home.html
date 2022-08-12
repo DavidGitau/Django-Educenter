@@ -1,0 +1,17 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+{% include "core/home/slider.html" %}
+{% include "core/home/banner.html" %}
+{% include "core/home/aboutus.html" %}
+{% include "core/course/course-list.html" %}
+{% include "core/home/cta.html" %}
+{% include "core/common/success.html" %}
+{% include "core/teacher/teacher-rec.html" %}
+{% comment %} {% include "core/common/teachers.html" %} {% endcomment %}
+{% comment %} {% include "core/home/blog.html" %} {% endcomment %}
+{% include "core/blog/reccommended-post.html" %}
+
+{% endblock content %}
+

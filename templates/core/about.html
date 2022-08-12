@@ -1,0 +1,11 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+{% include "core/common/title.html" %}
+{% include "core/about/about.html" %}
+{% include "core/about/funfacts.html" %}
+{% include "core/common/success.html" %}
+{% comment %} {% include "core/common/teachers.html" %} {% endcomment %}
+{% include "core/teacher/teacher-rec.html" %}
+
+{% endblock content %}  

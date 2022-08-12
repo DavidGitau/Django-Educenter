@@ -1,0 +1,14 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %} 
+
+{% include 'core/common/title.html' %}
+
+{% include "core/teacher/teacher-list.html" %}
+
+{% if plat == 'be' %}
+{% include 'be/form.html' %}
+{% endif %}
+
+{% endblock content %}
